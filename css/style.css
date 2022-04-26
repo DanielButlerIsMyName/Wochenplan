@@ -1,0 +1,27 @@
+.form {
+  margin: 2.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+}
+
+.input_box {
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.lession_box {
+  height: 15rem;
+}
+
+.time {
+  max-width: 5rem;
+  max-height: 15rem;
+  border: solid black;
+  padding: 0 1rem;
+}
+/*# sourceMappingURL=style.css.map */
