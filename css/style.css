@@ -1,27 +1,26 @@
-.form {
-  margin: 2.5rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[6];
-      grid-template-columns: repeat(6, 1fr);
-  gap: 1rem;
-}
-
-.input_box {
-  height: 100%;
+.table {
   width: 100%;
-  word-wrap: break-word;
-  word-break: break-all;
 }
 
-.lession_box {
-  height: 15rem;
+.table,
+.table th,
+.table td {
+  border: 0.1rem solid black;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #68b168;
 }
 
 .time {
-  max-width: 5rem;
-  max-height: 15rem;
-  border: solid black;
-  padding: 0 1rem;
+  width: 5rem;
+}
+
+.input_box {
+  width: 99%;
+  height: 99%;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */

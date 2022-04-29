@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,34 +9,52 @@
 </head>
 <body>
   <main class="main">
-
-    <div class="form">
-      <div class="lession_box time"><p>08:00 - 09:00</p></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box time"><p>08:00 - 09:00</p></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box time"><p>08:00 - 09:00</p></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box time"><p>08:00 - 09:00</p></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-      <div class="lession_box"><textarea name="text" rows="14" cols="10" wrap="soft" class="input_box"> </textarea></div>
-    
-    </div>
+    <table class="table">
+      <tr>
+        <th></th>
+        <th>Montag</th>
+        <th>Dienstag</th>
+        <th>Mitwoch</th>
+        <th>Donerstag</th>
+        <th>Freitag</th>
+      </tr>
+      <tr>
+        <th class="time">08:00 - 09:00</th>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+      </tr>
+      <tr>
+        <th class="time">09:10 - 10:00</th>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+      </tr>
+      <tr>
+        <th class="time">10:30 - 11:00</th>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+      </tr>
+      <tr>
+        <th class="time">11:10 - 11:45</th>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+        <td><textarea name="text" rows="14" cols="14" wrap="soft" class="input_box"></textarea></td>
+      </tr>
+    </table>
   </main>
+
+  <form>
+    <input type=button name=print value="Print" onClick="window.print()">
+</form>
 </body>
 </html>
