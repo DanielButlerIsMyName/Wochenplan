@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: solid 0.1rem #68b168;
+}
+
 .table {
   width: 100%;
 }
@@ -11,7 +21,7 @@
 }
 
 .table th {
-  background-color: rgb(104, 177, 104);
+  background-color: #68b168;
 }
 
 .time {
@@ -22,5 +32,11 @@
   width: 99%;
   height: 99%;
   border: none;
+  resize: none;
+}
 
+@media print {
+  .table th {
+    -webkit-print-color-adjust: exact;
+  }
 }

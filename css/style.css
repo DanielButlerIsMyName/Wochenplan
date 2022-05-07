@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline: solid 0.1rem #68b168;
+}
+
 .table {
   width: 100%;
 }
@@ -22,5 +33,12 @@
   width: 99%;
   height: 99%;
   border: none;
+  resize: none;
+}
+
+@media print {
+  .table th {
+    -webkit-print-color-adjust: exact;
+  }
 }
 /*# sourceMappingURL=style.css.map */
