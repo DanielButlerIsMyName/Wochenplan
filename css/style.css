@@ -34,9 +34,26 @@
   height: 99%;
   border: none;
   resize: none;
+  border: black 0.1rem;
+}
+
+.Pirnt-btn {
+  margin: 1rem;
+  height: 2rem;
+  width: 5rem;
+  background-color: #68b168;
+  border: #68b168 solid 0.25rem;
+}
+
+.Pirnt-btn:hover {
+  background-color: #356c35;
+  border: #002700 solid 0.25rem;
 }
 
 @media print {
+  .Pirnt-btn {
+    display: none;
+  }
   .table th {
     -webkit-print-color-adjust: exact;
   }
